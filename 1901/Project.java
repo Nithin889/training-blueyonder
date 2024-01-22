@@ -147,10 +147,11 @@ final class Tester extends Emp implements company
 public class Project {
     public static void main(String args[]) {
         int x = 0;
-        Developer d = new Developer();
-        Clerk c = new Clerk();
-        Manager m = new Manager();
-        Tester t = new Tester();
+        Developer d []= new Developer[10];
+        Clerk c[] = new Clerk[10];
+        Manager m[] = new Manager[10];
+        Tester t[] = new Tester[10];
+        int d1=0,c1=0,m1=0,t1=0;
         while (x>=0&&x<=6) {
             System.out.println("1 for create:");
             System.out.println("2 for display:");
@@ -170,13 +171,17 @@ public class Project {
                     int y;
                     y = sc.nextInt();
                     if (y == 1) {
-                        d.create();
+                        d[d1]=new Developer();
+                        d[d1++].create();
                     } else if (y == 2) {
-                        c.create();
+                        c[c1]=new Clerk();
+                        c[c1++].create();
                     } else if (y == 3) {
-                        m.create();
+                        m[m1]=new Manager();
+                        m[m1++].create();
                     } else if (y == 4) {
-                        t.create();
+                        t[t1]=new Tester();
+                        t[t1++].create();
                     }
                 } else if (x == 2) {
                     System.out.println("1 for Developer:");
@@ -186,14 +191,17 @@ public class Project {
                     System.out.println("5 for Exit");
                     int y;
                     y = sc.nextInt();
+                    System.out.println("Enter index");
+                    int i=sc.nextInt();
+
                     if (y == 1) {
-                        d.display();
+                        d[i].display();
                     } else if (y == 2) {
-                        c.display();
+                        c[i].display();
                     } else if (y == 3) {
-                        m.display();
+                        m[i].display();
                     } else if (y == 4) {
-                        t.display();
+                        t[i].display();
                     }
                 } else if (x == 3) {
                     System.out.println("1 for Developer:");
@@ -203,14 +211,16 @@ public class Project {
                     System.out.println("5 for Exit");
                     int y;
                     y = sc.nextInt();
+                    System.out.println("Enter index");
+                    int i=sc.nextInt();
                     if (y == 1) {
-                        d.incre(1.15);
+                        d[i].incre(1.15);
                     } else if (y == 2) {
-                        c.incre(1.05);
+                        c[i].incre(1.05);
                     } else if (y == 3) {
-                        m.incre(1.20);
+                        m[i].incre(1.20);
                     } else if (y == 4) {
-                        t.incre(1.10);
+                        t[i].incre(1.10);
                     }
                 } else if (x == 4) {
                     System.out.println("1 for Developer:");
@@ -220,14 +230,16 @@ public class Project {
                     System.out.println("5 for Exit");
                     int y;
                     y = sc.nextInt();
+                    System.out.println("Enter index");
+                    int i=sc.nextInt();
                     if (y == 1) {
-                        System.out.println(d.pf());
+                        System.out.println(d[i].pf());
                     } else if (y == 2) {
-                        System.out.println(c.pf());
+                        System.out.println(c[i].pf());
                     } else if (y == 3) {
-                        System.out.println(m.pf());
+                        System.out.println(m[i].pf());
                     } else if (y == 4) {
-                        System.out.println(t.pf());
+                        System.out.println(t[i].pf());
                     }
                 } else if (x == 5) {
                     System.out.println("1 for Developer:");
@@ -237,14 +249,16 @@ public class Project {
                     System.out.println("5 for Exit");
                     int y;
                     y = sc.nextInt();
+                    System.out.println("Enter index");
+                    int i=sc.nextInt();
                     if (y == 1) {
-                        d.access();
+                        d[i].access();
                     } else if (y == 2) {
-                        c.access();
+                        c[i].access();
                     } else if (y == 3) {
-                        m.access();
+                        m[i].access();
                     } else if (y == 4) {
-                        t.access();
+                        t[i].access();
                     }
                 }
             }
