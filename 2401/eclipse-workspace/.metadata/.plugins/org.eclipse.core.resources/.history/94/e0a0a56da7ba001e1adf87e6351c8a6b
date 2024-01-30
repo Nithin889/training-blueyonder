@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register page</title>
+</head>
+<body bgcolor="yellow">
+<div style="text-align: center;">
+	<h1>Hi Please Register</h1>
+	<form action="RegisterDemo">
+		<h2>
+		ID :<input type="text" name="uid"><br>
+		Name :<input type="text" name="uname"><br>
+		Age :<input type="text" name="uage"><br>
+		Salary :<input type="text" name="usalary"><br>
+		Desig :<input type="text" name="udesig"><br><br>
+		<input type="submit" value="REGISTER">
+		<input type="reset">
+		</h2>
+	</form>
+</div>
+</body>
+</html>

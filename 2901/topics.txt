@@ -1,0 +1,6 @@
+cookies and sessions in servlet
+jsp file
+declaration tag,scriptlet tag,expression tag
+Implicit objects in jsp
+session methods
+JSTL

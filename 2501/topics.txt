@@ -1,0 +1,5 @@
+request dispatcher -to redirect
+post method for forms
+web.xml
+init params-servlet config
+context params-servlet context

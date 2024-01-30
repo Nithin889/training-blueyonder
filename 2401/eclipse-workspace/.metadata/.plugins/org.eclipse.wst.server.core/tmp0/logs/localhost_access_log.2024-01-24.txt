@@ -1,0 +1,11 @@
+127.0.0.1 - - [24/Jan/2024:12:57:12 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [24/Jan/2024:15:37:56 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:15:37:56 +0530] "GET /CompanyWebApp/Register.html HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:15:37:56 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:15:38:00 +0530] "GET /CompanyWebApp/RegisterDemo?uid=1&uname=ffjje&uage=221&usalary=54&udesig=djfh HTTP/1.1" 200 42
+127.0.0.1 - - [24/Jan/2024:16:25:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:16:25:07 +0530] "GET /CompanyWebApp/Register.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:16:25:12 +0530] "GET /CompanyWebApp/RegisterDemo?uid=1&uname=ffjje&uage=221&usalary=54&udesig=djfh HTTP/1.1" 200 42
+127.0.0.1 - - [24/Jan/2024:16:29:44 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:16:29:55 +0530] "GET /CompanyWebApp/Register.html HTTP/1.1" 200 644
+0:0:0:0:0:0:0:1 - - [24/Jan/2024:16:30:06 +0530] "GET /CompanyWebApp/Login.html HTTP/1.1" 200 404
